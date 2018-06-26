@@ -1,12 +1,12 @@
-import dot from '../../../dotLib/dot'
-var deviceInfo = wx.getSystemInfoSync()
-var now = new Date().getTime();
-var addition = {
-    "timestamp": now,
-    "version": deviceInfo.version,
-    "platform": deviceInfo.platform,
-    "id": 0,
-  };
+    import dot from '../../../dotLib/dot'
+    var deviceInfo = wx.getSystemInfoSync()
+    var now = new Date().getTime();
+    var addition = {
+       "timestamp": now,
+       "version": deviceInfo.version,
+       "platform": deviceInfo.platform,
+       "id": 0,
+    };
 
       /**
       * dot config
